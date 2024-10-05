@@ -76,4 +76,5 @@ public class Main {
         System.out.println("Денис теперь получает "+(denis+denis*0.1)+" рублей. Годовой доход вырос на "+(((denis+denis*0.1)*12)-(denis*12))+" рублей");
         System.out.println("Кристина теперь получает "+(kristina+kristina*0.1)+" рублей. Годовой доход вырос на "+(((kristina+kristina*0.1)*12)-(kristina*12))+" рублей");
     }
+
 }
