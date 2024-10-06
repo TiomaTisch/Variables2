@@ -37,14 +37,14 @@ public class Main {
 
         System.out.println("--------Задача4--------");
 
-        var bottles = 8;
+        var bottles = 16;
         var min = 20;
         var day = 24 * 60;
 
-        System.out.println("За 20 минут машина произвела " + (min * bottles) + " штук бутылок");
-        System.out.println("За сутки машина произвела " +    (day * bottles) + " штук бутылок");
-        System.out.println("За 3 дня машина произвела " +    (day * 3 * bottles) + " штук бутылок");
-        System.out.println("За месяц машина произвела " +    (day * 30 * bottles) + " штук бутылок");
+        System.out.println("За 20 минут машина произвела " + (min / 2 * bottles) + " штук бутылок");
+        System.out.println("За сутки машина произвела " +    (day/2 * bottles) + " штук бутылок");
+        System.out.println("За 3 дня машина произвела " +    (day * 3/2 * bottles) + " штук бутылок");
+        System.out.println("За месяц машина произвела " +    (day * 30/2 * bottles) + " штук бутылок");
 
         System.out.println("--------Задача5--------");
 
