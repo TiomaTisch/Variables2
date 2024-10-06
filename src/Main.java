@@ -28,18 +28,18 @@ public class Main {
 
         System.out.println("--------Задача3--------");
 
-        var lp = 23;
-        var as = 27;
-        var ea = 30;
-        var paper = 480;
+        byte lp = 23;
+        byte as = 27;
+        byte ea = 30;
+        short paper = 480;
 
         System.out.println("На каждого ученика рассчитано "+ (paper / (lp + as + ea)) +" листов бумаги");
 
         System.out.println("--------Задача4--------");
 
-        var bottles = 16;
-        var min = 20;
-        var day = 24 * 60;
+        byte bottles = 16;
+        byte min = 20;
+        short day = 24 * 60;
 
         System.out.println("За 20 минут машина произвела " + (min / 2 * bottles) + " штук бутылок");
         System.out.println("За сутки машина произвела " +    (day/2 * bottles) + " штук бутылок");
@@ -48,17 +48,17 @@ public class Main {
 
         System.out.println("--------Задача5--------");
 
-        var cans = 120;
-        var room = 120/6;
+        byte cans = 120;
+        byte room = 120/6;
         System.out.println("В школе, где "+ room +" классов, нужно "+room * 2+" банок белой краски и "+room * 4 +" банок коричневой краски");
 
         System.out.println("--------Задача6--------");
 
-        var banan = 5 * 80;
-        var milk = 2*105;
-        var iceCream = 2*100;
-        var egg =  4 * 70;
-        var blend = banan + milk + iceCream + egg;
+        short banan = 5 * 80;
+        short milk = 2*105;
+        short iceCream = 2*100;
+        short egg =  4 * 70;
+        int blend = banan + milk + iceCream + egg;
 
         System.out.println("Вес завтра "+ blend+ "г или "+ (blend/1000f)+"кг");
 
@@ -68,9 +68,9 @@ public class Main {
 
         System.out.println("--------Задача8--------");
 
-        var masha = 67760;
-        var denis = 83690;
-        var kristina = 76230;
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
 
         System.out.println("Маша теперь получает "+(masha+masha*0.1)+" рублей. Годовой доход вырос на "+(((masha+masha*0.1)*12)-(masha*12))+" рублей");
         System.out.println("Денис теперь получает "+(denis+denis*0.1)+" рублей. Годовой доход вырос на "+(((denis+denis*0.1)*12)-(denis*12))+" рублей");
